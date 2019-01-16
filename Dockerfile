@@ -2,6 +2,8 @@ FROM debian:jessie
 
 ENV CONSUL_VERSION 0.7.5
 ENV UI_VERSION 0.7.5
+#ENV CONSUL_VERSION 1.4.0
+#ENV UI_VERSION 1.4.0
 
 RUN apt-get update && \
     apt-get install ca-certificates curl unzip -y && \
